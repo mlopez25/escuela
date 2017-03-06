@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Tag Cloud\n"
+"POT-Creation-Date: 2016-06-11 01:33+0300\n"
+"PO-Revision-Date: 2016-06-20 11:09+0300\n"
+"Last-Translator: The Krotek <support@thekrotek.com>\n"
+"Language-Team: The Krotek\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+msgid "heading"
+msgstr "Custom Tag Cloud"
+
+msgid "shortcode_header"
+msgstr "Shortcode number"
+
+msgid "title_title"
+msgstr "Title"
+
+msgid "title_hint"
+msgstr "Widget title"
+
+msgid "mode_title"
+msgstr "Mode"
+
+msgid "mode_hint"
+msgstr "Use this widget instance as shortcode only, widget only or both."
+
+msgid "mode_widget"
+msgstr "Widget"
+
+msgid "mode_shortcode"
+msgstr "Shortcode"
+
+msgid "mode_both"
+msgstr "Both"
+
+msgid "taxonomy_title"
+msgstr "Taxonomy"
+
+msgid "taxonomy_hint"
+msgstr "Tag taxonomy type."
+
+msgid "taxonomy_post"
+msgstr "Posts"
+
+msgid "taxonomy_category"
+msgstr "Categories"
+
+msgid "taxonomy_link"
+msgstr "Link categories"
+
+msgid "number_title"
+msgstr "Number of tags"
+
+msgid "number_hint"
+msgstr "Number of tags to be displayed in the cloud."
+
+msgid "separator_title"
+msgstr "Separator"
+
+msgid "separator_hint"
+msgstr "Characters to separate tags with."
+
+msgid "message_save"
+msgstr "Save widget first!"
+
+msgid "error_id"
+msgstr "Widget ID number is not set."
+
+msgid "error_params"
+msgstr "Widget params not found."
+
+msgid "yes"
+msgstr "Yes"
+
+msgid "no"
+msgstr "No"
+
+msgid "footnote"
+msgstr "&copy; 2011-%s Powered by <a target='_blank' href='http://thekrotek.com' title='Discover the truth!'>The Krotek</a>."

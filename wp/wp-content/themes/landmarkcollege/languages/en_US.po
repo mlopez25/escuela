@@ -1,0 +1,411 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: landmarkcollege\n"
+"POT-Creation-Date: 2017-03-06 08:56+0100\n"
+"PO-Revision-Date: 2017-03-06 09:52+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:21
+msgid "Oooooops, algo ha ido mal"
+msgstr "OOOOOOOOps, something has gone wrong"
+
+#: ../404.php:28
+msgid "Parece ser que no hemos encontrado lo que intentas buscar."
+msgstr "I think I can not find what you are looking for"
+
+#: ../404.php:29
+msgid "Volver al Inicio"
+msgstr "Return to Home"
+
+#: ../archive.php:63 ../front-page.php:244 ../index.php:66 ../search.php:63
+#: ../single.php:63 ../template-parts/nav.php:4
+msgid "Noticias"
+msgstr "News"
+
+#: ../archive.php:82
+#, php-format
+msgid "Entradas de la Categoría: %s"
+msgstr "Categorie's entries: %s"
+
+#: ../archive.php:84
+#, php-format
+msgid "Entradas de la Etiqueta: %s"
+msgstr "Tag's entries: %s"
+
+#: ../archive.php:87
+#, php-format
+msgid "Entradas del Autor: %s"
+msgstr "Author's entries: %s"
+
+#: ../archive.php:90
+#, php-format
+msgid "Entradas del Día: %s"
+msgstr "Day's entries: %s"
+
+#: ../archive.php:92
+#, php-format
+msgid "Entradas del Mes: %s"
+msgstr "Month's entries: %s"
+
+#: ../archive.php:94
+#, php-format
+msgid "Entradas del año: %s"
+msgstr "Year's entries: %s"
+
+#: ../archive.php:96
+msgid "<h3>Entradas: </h3>"
+msgstr "<h3>Entries: </h3>"
+
+#: ../archive.php:122 ../template-parts/content-authorlist.php:23
+#: ../template-parts/content-list.php:19
+#: ../template-parts/content-postdest.php:33
+msgid "Ningún comentario"
+msgstr "Any comments"
+
+#: ../archive.php:122 ../template-parts/content-audio.php:24
+#: ../template-parts/content-authorlist.php:23
+#: ../template-parts/content-gallery.php:45
+#: ../template-parts/content-image.php:38
+#: ../template-parts/content-link.php:22 ../template-parts/content-list.php:19
+#: ../template-parts/content-postdest.php:33
+#: ../template-parts/content-quote.php:21
+#: ../template-parts/content-video.php:22 ../template-parts/content.php:25
+msgid " 1 comentario"
+msgstr "1 comment"
+
+#: ../archive.php:122 ../template-parts/content-audio.php:24
+#: ../template-parts/content-authorlist.php:23
+#: ../template-parts/content-gallery.php:45
+#: ../template-parts/content-image.php:38
+#: ../template-parts/content-link.php:22 ../template-parts/content-list.php:19
+#: ../template-parts/content-postdest.php:33
+#: ../template-parts/content-quote.php:21
+#: ../template-parts/content-video.php:22 ../template-parts/content.php:25
+#, php-format
+msgid " % comentarios"
+msgstr "% comments"
+
+#: ../archive.php:128 ../front-page.php:219
+#: ../template-parts/content-audio.php:29
+#: ../template-parts/content-authorlist.php:36
+#: ../template-parts/content-gallery.php:50
+#: ../template-parts/content-image.php:43
+#: ../template-parts/content-link.php:27 ../template-parts/content-list.php:29
+#: ../template-parts/content-quote.php:25
+#: ../template-parts/content-video.php:27 ../template-parts/content.php:30
+msgid "Leer más..."
+msgstr "Read more..."
+
+#: ../author.php:81
+msgid "No Tiene foto"
+msgstr "No photo"
+
+#: ../college.php:65 ../front-page.php:254 ../template-parts/nav.php:6
+msgid "Colegio"
+msgstr "College"
+
+#: ../college.php:81
+msgid "Landmark College fue inaugurado el 22 de Agosto de 2010 en Soria."
+msgstr "Landmark College was inaugurated on August 22, 2010 in Soria"
+
+#: ../college.php:82
+msgid ""
+"Pero aunque es un instituto construido hace poco tiempo desde el momento en "
+"el que comenzó a construirse ya tenía una historia sobre él."
+msgstr ""
+"But even though it is an insitute built a short time ago from the moment it "
+"began to be built it already had a history."
+
+#: ../college.php:83
+msgid ""
+"En 1984 se inauguró el Colegio \"San Saturio\" sobre el mismo suelo en el "
+"que posteriormente se construyó el actual instituto. Se trataba de un "
+"colegio católico, el cual estaba bajo la dirección del vicario de Soria. "
+"Cuando se construyó se hizo para escolarizar a los niños de la zona y los "
+"niños de los alrededores que tenían dificultad para desplazarse. Por ello "
+"era importante la localización en la que se construyera. Pero debido a la "
+"gran acogida que tuvo a lo largo de los años tuvo que ser ampliada en varias "
+"ocasiones."
+msgstr ""
+"In 1984 the \"San Saturio\" School was inaugurated on the same floor in "
+"which the real institute was later built. It was a Catholic school, which "
+"was under the direction of the vicar of Soria. When it was built it was made "
+"for the schooling of the children of the area and the surrounding children "
+"who have difficulty moving. That's why the location in which it was built "
+"was important. But due to the great reception that took a long time of years "
+"it was expanded several times."
+
+#: ../college.php:84
+msgid ""
+"Desgraciadamente el colegio tuvo que cerrar sus puertas el 20 de Marzo de "
+"2003 debido a que un fuerte terremoto dañó parte de la estructura y se temía "
+"por la seguridad de los estudiantes. "
+msgstr ""
+"The school had to close the doors on March 20, 2003, due to a strong "
+"earthquake in the back of the structure and temple for the safety of the "
+"students."
+
+#: ../college.php:85
+msgid ""
+"Se mantuvo cerrado hasta que en 2008 el empresario noruego Arne Landmark "
+"decidió invertir el suficiente dinero para su reconstrucción."
+msgstr ""
+"It remained closed until in 2008 the Norwegian businessman Arne Landmark "
+"decided to invest enough money for its reconstruction."
+
+#: ../college.php:86
+msgid ""
+"Gracias a la ayuda que se consiguió por parte del Gobierno y el Señor "
+"Landmark, se pudo construir un instituto con una gran capacidad y los "
+"recursos necesarios para que los alumnos puedan cursar la Secundaria y "
+"Bachillerato con los mejores recursos de toda la Comunidad Autónoma."
+msgstr ""
+"Thanks to the help of the Government and Mr. Landmark, it was possible to "
+"build an institute with a great capacity and the necessary resources so that "
+"the students can attend the Bachillerato and Bachillerato with the best "
+"resources of the whole Autonomous Community."
+
+#: ../college.php:106
+msgid "Estudiantes Matriculados"
+msgstr "Enrolled students"
+
+#: ../college.php:113
+msgid "Profesores que imparten"
+msgstr "Teachers"
+
+#: ../college.php:120
+msgid "Número de visitas a la página"
+msgstr "Number of page views"
+
+#: ../college.php:127
+msgid "Número de Asignaturas"
+msgstr "Number of Courses"
+
+#: ../college.php:139
+msgid "Nuestros Cursos"
+msgstr "Our Courses"
+
+#: ../college.php:142
+msgid "SECUNDARIA"
+msgstr "Secondary School"
+
+#: ../college.php:145
+msgid "BACHILLERATO"
+msgstr "High School"
+
+#: ../comments.php:15
+msgid "No hay comentarios"
+msgstr "Any Comments"
+
+#: ../comments.php:15
+msgid "1 Comentario"
+msgstr "1 Comment"
+
+#: ../comments.php:15
+msgid "% Comentarios"
+msgstr "% Comments"
+
+#: ../comments.php:16
+msgid " en \""
+msgstr "in \""
+
+#: ../contact.php:65 ../contact.php:80 ../front-page.php:264
+#: ../template-parts/nav.php:8
+msgid "Contacto"
+msgstr "Contact"
+
+#: ../contact.php:80
+msgid "Landmark College"
+msgstr "Landmark College"
+
+#: ../contact.php:83
+msgid "Información de Contacto."
+msgstr "Contact info."
+
+#: ../contact.php:91
+msgid "Horario de Secretaria:"
+msgstr "Secretary schedule:"
+
+#: ../contact.php:92
+msgid "Lunes a Viernes: 8.00 a 14.00h"
+msgstr "Monday - Friday: 8:00 - 14:00"
+
+#: ../contact.php:99
+msgid "Comentario..."
+msgstr "Comment..."
+
+#: ../footer.php:6
+msgid ""
+"Landmark College se trata de uno de los institutos más importantes de la "
+"provincia de Soria. Con más de cincuenta aulas pone a disposición del "
+"alumnado una gran cantidad de recursos que ayudará con su educación."
+msgstr ""
+"Landmark College is one of the most important High Schools in the province "
+"of Soria. With more than fifty classrooms, students are offered a large "
+"amount of resources that will help with their education."
+
+#: ../footer.php:78
+msgid "Acceso para profesores"
+msgstr "Teacher's access"
+
+#: ../footer.php:88
+msgid "Todos los derechos reservados | Grupo"
+msgstr "All rights reserved | Group"
+
+#: ../front-page.php:69
+msgid "Alcanza"
+msgstr "Reach"
+
+#: ../front-page.php:69
+msgid "tus metas"
+msgstr "your goal"
+
+#: ../front-page.php:75
+msgid "Un lugar"
+msgstr "A place"
+
+#: ../front-page.php:75
+msgid "para el progreso"
+msgstr "for progress"
+
+#: ../front-page.php:81
+msgid "Investiga, aprende"
+msgstr "Research"
+
+#: ../front-page.php:81
+msgid "Sueña"
+msgstr "Dream"
+
+#: ../front-page.php:103
+msgid "Un centro comprometido con la educación"
+msgstr "A center committed to education"
+
+#: ../front-page.php:104
+msgid ""
+"Landmark College es un centro ubicado en Soria, España. Destaca del resto, "
+"debido a que ha sido \n"
+"\t\t\t\t\t\t\tconstruido recientemente y ha sido equipado con los últimos "
+"recursos disponibles en educación. Lo que lo sitúa como el instituto\n"
+"\t\t\t\t\t\t\tmás prestigioso de España siendo de carácter público."
+msgstr ""
+"Landmark College is a center located in Soria, Spain. It stands out from the "
+"rest, because it has been \n"
+"\t\t\t\t\t\t\trecently built and has been equipped with the latest resources "
+"available in education. What puts it like the institute \n"
+"\t\t\t\t\t\t\tthe most prestigious of Spain being of public character."
+
+#: ../front-page.php:119
+msgid ""
+"\n"
+"\t\t\t\t\t\t\t\t\tEl instituto cuenta con varias aulas habilitadas para que "
+"el alumnado pueda aprender de la mejor forma. Estas aulas se encuentran "
+"distribuidas en los diferentes edificios.<br/>\n"
+"\t\t\t\t\t\t\t\t\tQuizás las instalaciones más destacadas es que todas las "
+"aulas están informatizadas, cuentan con proyectores, pizarras táctiles, y "
+"portátiles a disposición del alumnado.<br/>\n"
+"\t\t\t\t\t\t\t\t\tAlgunas de las aulas habilitadas para el alumnado que "
+"pueden encontrar son: gimnasio, piscina, laboratorio de física y química, "
+"auditorio, sala de informática, biblioteca, laboratorio de biología y "
+"geología, taller de tecnología…\n"
+"\t\t\t\t\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\t\t\t\tThe institute has several classrooms enabled so that "
+"students can learn in the best way. These classrooms are distributed in "
+"different buildings. <br/> \n"
+"\t\t\t\t\t\t\t\t\tPerhaps the most outstanding facilities are that all "
+"classrooms are computerized, have projectors, touchscreens, and laptops "
+"available to students.\n"
+"\t\t\t\t\t\t\t\t\tSome of the classrooms that can be found are: gym, "
+"swimming pool, physics and chemistry lab, auditorium, computer room, "
+"library, Biology and geology, technology workshop ... \n"
+"\t\t\t\t\t\t\t\t\t"
+
+#: ../front-page.php:167
+msgid "NOTICIAS"
+msgstr "News"
+
+#: ../front-page.php:239 ../template-parts/nav.php:3
+msgid "Inicio"
+msgstr "Home"
+
+#: ../front-page.php:249 ../template-parts/nav.php:5
+msgid "Actividades"
+msgstr "Activities"
+
+#: ../front-page.php:259 ../template-parts/nav.php:7
+msgid "Cursos"
+msgstr "Course"
+
+#: ../functions.php:111
+msgid "Views"
+msgstr "Views"
+
+#: ../functions.php:128
+msgid "Sidebar Widgets"
+msgstr "Sidebar Widgets"
+
+#: ../functions.php:130
+msgid "Sidebar Widget Area"
+msgstr "Sidebar Widget Area"
+
+#: ../search.php:86
+#, php-format
+msgid "Resultados de busqueda para: %s"
+msgstr "Search results for: %s"
+
+#: ../searchform.php:13 ../searchform.php:26
+msgid "Buscar"
+msgstr "Search"
+
+#: ../sidebar.php:6
+msgid "Últimos posts"
+msgstr "Lasts posts"
+
+#: ../sidebar.php:19
+msgid "0"
+msgstr "0"
+
+#: ../sidebar.php:19
+msgid " 1"
+msgstr "1"
+
+#: ../sidebar.php:19
+msgid " %"
+msgstr "%"
+
+#: ../sidebar.php:30
+msgid "Archivos"
+msgstr "Archives"
+
+#: ../sidebar.php:36
+msgid "Categorías"
+msgstr "Categories"
+
+#: ../sidebar.php:41
+msgid "Autores"
+msgstr "Authors"
+
+#: ../sidebar.php:51
+msgid "Páginas"
+msgstr "Pages"
+
+#: ../template-parts/content-audio.php:24
+#: ../template-parts/content-gallery.php:45
+#: ../template-parts/content-image.php:38
+#: ../template-parts/content-link.php:22
+#: ../template-parts/content-quote.php:21
+#: ../template-parts/content-video.php:22 ../template-parts/content.php:25
+msgid " Ningún comentario"
+msgstr "Any Comments"

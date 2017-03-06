@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Landmark College</title>
+	<link rel="icon" type="image/png" href="/favi.png" size="32x32" />
+
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Fleece Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+
+	<script type="application/x-javascript">
+		addEventListener("load", function() {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+
+	<!-- //for-mobile-apps -->
+	<link href="/wp/wp-content/themes/landmarkcollege/style.css" rel="stylesheet" type="text/css" media="all" />
+
+	<!-- js -->
+	<script type="text/javascript" src="/wp/wp-content/themes/landmarkcollege/js/jquery-2.1.4.min.js"></script>
+	<!-- //js -->
+
+	<!-- animation-effect -->
+	<script src="/wp/wp-content/themes/landmarkcollege/js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+	<!-- //animation-effect -->
+	<!--FlexSlider-->
+	<script defer src="/wp/wp-content/themes/landmarkcollege/js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('.flexslider').flexslider({
+				animation: "slide",
+				start: function(slider) {
+					$('body').removeClass('loading');
+				}
+			});
+		});
+	</script>
+
+
+	<!--End-slider-script-->
+	<link href='//fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/wp/wp-content/themes/landmarkcollege/css/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+	<link href='/actividades/css/style.css' rel='stylesheet' type='text/css'>
+
+
+	<!-- start-smoth-scrolling -->
+	<script type="text/javascript" src="/wp/wp-content/themes/landmarkcollege/js/move-top.js"></script>
+	<script type="text/javascript" src="/wp/wp-content/themes/landmarkcollege//js/easing.js"></script>
+	<script src="https://proyect-school-krast.c9users.io/actividades/js/scriptAct.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- start-smoth-scrolling -->
+
+</head>
+
+<body>
+	<!-- banner -->
+	<div id="cargando"></div>
+	<div id="body">
+		<div class="banner1">
+			<div class="container">
+				<div class="banner-main">
+					<div class="banner-main1">
+						<div class="logo animated wow slideInLeft" data-wow-delay=".5s">
+							<a href="https://proyect-school-krast.c9users.io/wp/">
+								<div class="logoBanner"></div>
+							</a>
+						</div>
+						<div class="header-right">
+							<div class="shy-menu">
+								<a class="shy-menu-hamburger">
+									<span class="layer top"></span>
+									<span class="layer mid"></span>
+									<span class="layer btm"></span>
+								</a>
+								<div class="shy-menu-panel">
+									<nav class="menu menu--horatio">
+										<ul class="menu__list">
+											<li class="menu__item menu__item--current"><a href="https://proyect-school-krast.c9users.io/wp/" class="menu__link">Inicio</a></li>
+											<li class="menu__item"><a href="https://proyect-school-krast.c9users.io/wp/noticias/" class="menu__link">Noticias</a></li>
+											<li class="menu__item"><a href="https://proyect-school-krast.c9users.io/actividades/index.php" class="menu__link">Actividades</a></li>
+											<li class="menu__item"><a href="https://proyect-school-krast.c9users.io/wp/colegio/" class="menu__link">Colegio</a></li>
+											<li class="menu__item"><a href="https://proyect-school-krast.c9users.io/wp/colegio/#cursos" class="menu__link">Cursos</a></li>
+											<li class="menu__item"><a href="https://proyect-school-krast.c9users.io/wp/contacto/" class="menu__link">Contacto</a></li>
+										</ul>
+									</nav>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="menu open">
+								<a class="hamburger">
+									<span class="layer top"></span>
+									<span class="layer mid"></span>
+									<span class="layer btm"></span>
+								</a>
+							</div>
+							<script>
+								$(function() {
+									initDropDowns($("div.shy-menu"));
+								});
+
+								function initDropDowns(allMenus) {
+									allMenus.children(".shy-menu-hamburger").on("click", function() {
+										var thisTrigger = jQuery(this),
+											thisMenu = thisTrigger.parent(),
+											thisPanel = thisTrigger.next();
+										if (thisMenu.hasClass("is-open")) {
+											thisMenu.removeClass("is-open");
+										}
+										else {
+											allMenus.removeClass("is-open");
+											thisMenu.addClass("is-open");
+											thisPanel.on("click", function(e) {
+												e.stopPropagation();
+											});
+										}
+										return false;
+									});
+								}
+							</script>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="flexslider-info animated wow zoomIn" data-wow-delay=".5s">
+						<section class="slider">
+							<div class="flexslider">
+								<div class="banner-info">
+									<p class="title">Actividades</p>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- banner -->
+
+		<!-- Cuerpo de las Actividades -->
+
+		<!-- Actividad más próxima -->
+		<div class="container containerSingle">
+
+			<div id="actividadDestacada" class="col-lg-12">
+			</div>
+
+		</div>
+
+		<br/>
+
+		<!-- Resto de Actividades -->
+		<div class="container containerResto">
+
+			<div id="restoActividades" class="col-lg-8">
+
+			</div>
+
+			<!-- Sidebar -->
+			<div class="col-lg-4 sidebar">
+			</div>
+
+		</div>
+		<!-- Cuerpo de las actividades -->
+
+		<!-- Paginacion -->
+		<div class="menu_pie">
+
+		</div>
+		<!-- Paginacion -->
+	</div>
+	<!-- Footer -->
+	<br/>
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="col-md-4 footer-grid animated wow slideInLeft" data-wow-delay=".5s">
+				<h2><a href="https://proyect-school-krast.c9users.io/wp/">Landmark<span>College</span></a></h2>
+				<p class="footer_des">Landmark College se trata de uno de los institutos más importantes de la provincia de Soria. Con más de cincuenta aulas pone a disposición del alumnado una gran cantidad de recursos que ayudará con su educación.</p>
+				<ul class="social">
+					<li>Búscanos en:</li>
+					<li><a class="social-linkedin" href="#">
+						<i></i>
+						<div class="tooltip"><span>Facebook</span></div>
+						</a></li>
+					<li><a class="social-twitter" href="#">
+						<i></i>
+						<div class="tooltip"><span>Twitter</span></div>
+						</a></li>
+					<li><a class="social-google" href="#">
+						<i></i>
+						<div class="tooltip"><span>Google+</span></div>
+						</a></li>
+					<li><a class="social-facebook" href="#">
+						<i></i>
+						<div class="tooltip"><span>Pinterest</span></div>
+						</a></li>
+					<li><a class="social-instagram" href="#">
+						<i></i>
+						<div class="tooltip"><span>Instagram</span></div>
+						</a></li>
+				</ul>
+				<div class="newsletter">
+					<form>
+						<input type="email" value="Introduzca su email..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Introduzca su email...';}" required="">
+						<input type="submit" value="Suscríbete">
+					</form>
+				</div>
+			</div>
+			<div class="col-md-4 footer-grid animated wow slideInLeft" data-wow-delay=".6s">
+				<h3>instagram posts</h3>
+				<div class="footer-grid-left fotos" style="background-image: url('/wp/wp-content/themes/landmarkcollege/footimg/30.jpg')">
+					
+				</div>
+				<div class="footer-grid-left fotos" style="background-image: url('/wp/wp-content/themes/landmarkcollege/footimg/31.jpg')">
+					
+				</div>
+				<div class="footer-grid-left fotos" style="background-image: url('/wp/wp-content/themes/landmarkcollege/footimg/32.jpg')">
+					
+				</div>
+				<div class="footer-grid-left fotos" style="background-image: url('/wp/wp-content/themes/landmarkcollege/footimg/33.jpg')">
+					
+				</div>
+				<div class="footer-grid-left fotos" style="background-image: url('/wp/wp-content/themes/landmarkcollege/footimg/34.jpg')">
+				
+				</div>
+				<div class="footer-grid-left fotos" style="background-image: url('/wp/wp-content/themes/landmarkcollege/footimg/35.jpg')">
+					
+				</div>
+				<div class="footer-grid-left fotos" style="background-image: url('/wp/wp-content/themes/landmarkcollege/footimg/36.jpg')">
+					
+				</div>
+				<div class="footer-grid-left fotos" style="background-image: url('/wp/wp-content/themes/landmarkcollege/footimg/37.jpg')">
+				
+				</div>
+				<div class="footer-grid-left fotos" style="background-image: url('/wp/wp-content/themes/landmarkcollege/footimg/38.jpg')">
+					
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-4 footer-grid animated wow slideInLeft" data-wow-delay=".7s">
+				<h3>Contacto</h3>
+				<ul class="footer-address">
+					<li><span class="glyphicon glyphicon-home" aria-hidden="true"></span> 23 Nicolás Rabal, Soria, España</li>
+					<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">landmark_college@gmail.com</a></li>
+					<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> +34 980 928 829</li>
+				</ul>
+				
+				<!-- ******************** BOTÓN PARA ACCEDER A LA PARTE DEL PROFESORADO ************ -->
+				<div class="more center-elements m1">
+					<a href="https://proyect-school-krast.c9users.io/acceso/" class="hvr-sweep-to-top">Acceso para profesores</a>
+				</div>
+				<!-- ******************** FIN DEL BOTÓN PARA ACCEDER **************** -->
+				
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<div class="footer-copy">
+		<div class="container">
+			<p class="animated wow slideInLeft" data-wow-delay=".5s">Landmark College © 2016 . Todos los derechos reservados | Grupo <a href="index.php">Landmark College</a></p>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		/* global $ */
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>

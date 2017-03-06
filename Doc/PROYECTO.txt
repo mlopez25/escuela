@@ -1,0 +1,39 @@
+Usuario WP -->  admin
+Password WP --> admin
+
+Usuario phpMyAdmin --> root 
+Password phpMyAdmin --> ninguna
+
+
+// IDEAS PROYECTO //
+
+http://preview.themeforest.net/item/kidix-a-kindergarten-wordpress-theme-/full_screen_preview/11609103?ref=cirvitis
+
+http://preview.themeforest.net/item/kindergarten-wordpress-theme-for-children-school/full_screen_preview/12907839?ref=cirvitis
+
+http://2goodtheme.net/html/kidcenter/layout/index.html
+
+http://educationwp.thimpress.com/
+
+http://preview.themeforest.net/item/educate-education-html-template/full_screen_preview/17791553
+
+http://www.coffeecreamthemes.com/themes/magicreche/site/
+
+https://p.w3layouts.com/demos_new/03-01-2017/wool-demo_Free/1536522018/web/index.html
+
+https://p.w3layouts.com/demos/aug-2016/13-08-2016/smart_bazaar/web/
+
+https://p.w3layouts.com/demos/june-2016/13-06-2016/business_park/web/
+
+https://p.w3layouts.com/demos/deliccio/web/contact.html
+
+/////////////////////
+
+https://p.w3layouts.com/demos/apr-2016/09-04-2016/fleece/web/
+
+https://jacobstoops.com/blog/wordpress-recent-posts-thumbnails-without-plugin/
+
+IDEAS WORDPRESS PREMIUM:
+http://wp.dedalx.com/fencer/fencer-onepage/blog/
+http://thegravity.net/novalumen/home/blog-grid/
+http://nowadays.likeaprothemes.com/blog/

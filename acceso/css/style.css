@@ -1,0 +1,884 @@
+
+body{
+    background-color: #F5F5F5;
+}
+
+.shy-menu-hamburger .layer{
+    background-color: #000000 !important;
+}
+
+html{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+body{
+    width: 100% !important;
+    height: auto !important;
+    min-width: 320px !important;
+}
+
+#body{
+    width: 100% !important;
+    height: 100% !important;
+    min-width: 320px !important;
+}
+
+#cargando{
+    width: 100%; 
+    height: 600px; 
+    background-color: #FFFFFF;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cargando > img{
+    height: 100%; 
+    object-fit: cover;
+}
+
+.access_teacher{
+    background-color: rgba(0, 74, 101, 0.4);
+    padding: 0px;
+    height: 300px;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.access_teacher h3{
+    font-family: 'PT_Sans';
+    font-size: 2em;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: -20px;
+    padding-bottom: 1em;
+    position: relative;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.access_teacher h3 span {
+    color: #004A65;
+}
+
+.latest-posts-bottom-grid-left1{
+    width: 80% !important;
+}
+
+.loginNombre{
+    width: 100%;
+    margin-bottom: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.loginNombre > span{
+    flex: 0 1 10%;
+    border: 1px solid #D9D9D9;
+    background: #E8E8E8;
+    color: #004A65;
+    vertical-align: middle;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginNombre > input{
+    flex: 0 1 90% !important;
+    margin-left: -1px;
+    border: 1px solid #D9D9D9;
+    background: #FFFFFF !important;
+}
+
+.loginPassword{
+    width: 100%;
+    margin-bottom: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.loginPassword > span{
+    flex: 0 1 10%;
+    border: 1px solid #D9D9D9;
+    background: #E8E8E8;
+    color: #004A65;
+    vertical-align: middle;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginPassword > input{
+    flex: 0 1 90% !important;
+    margin-left: -1px;
+    border: 1px solid #D9D9D9;
+    background: #FFFFFF !important;
+    outline: none;
+    font-size: 14px;
+    padding: 10px;
+    color: #212121;
+}
+
+.access_teacher input[type="submit"] {
+    outline: none;
+    border: none;
+    background: #004A65;
+    font-size: 1em;
+    color: #fff;
+    padding: 8px 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.error_login{
+    color: #9F1C13;
+    text-align: left !important;
+}
+
+.error_add{
+    color: #9F1C13;
+    text-align: left !important;
+}
+
+.error_edit{
+    color: #9F1C13;
+    text-align: left !important;
+}
+
+/* ****************** CUERPO BACK-END PROFESORES *********************** */
+
+.container_access{
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu_aside{
+    background-color: #D9D9D9;
+    width: 300px;
+    min-height: 800px;
+    max-height: 1080px;
+}
+
+.container_aside{
+    margin: 20px 0px 40px;
+}
+
+.container-logo{
+    width: 100%;
+    margin-bottom: 10px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.container-logo > a > img{
+    width: 70%;
+    height: 80px;
+    object-fit: contain;
+    
+}
+
+.cerrarSesion:before{
+    font-family: FontAwesome;
+    content: '\f08b';
+    margin-right: 15px;
+}
+
+.container_aside > h3{
+    font-family: 'PT_Sans';
+    background-color: #004A65;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    font-weight: 300;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.container_aside > a{
+    color: #606060 !important;
+    padding: 5px 40px;
+    font-family: 'PT_Sans';
+    font-size: 17px;
+    font-weight: 400;
+    transition: all .3s ease;
+}
+
+.container_aside > a:hover{
+    background-color: #FFFEC9;
+    font-weight: 600;
+}
+
+.row{
+    width: 100%;
+    background-color: #FFFFFF;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido{
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu_pie{
+    display: flex;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: white !important;
+    display: block;
+}
+
+td a{
+    color: black !important;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px 15px;
+}
+
+.contenido h4 > a{
+    color: #004a65 !important;
+}
+
+.page-item {
+    padding: 3px 5px;
+    border: 2px solid rgba(115,198,202,0.5);
+    margin: 0px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.page-item > a{
+    color: #000000 !important;
+}
+
+
+/* *********** FIN ESTILOS ACCESO PROFESORES ********/
+
+
+/* ***************** LISTAR DEPARTAMENTOS *********************** */
+
+.contenedorListDepartamentos{
+    width: 90%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.detDepart{
+    flex: 0 1 200px;
+    margin-bottom: 10px;
+    background-color: #9F91C6;
+    transition: all .3s ease;
+}
+
+.detDepart:nth-child(5n+0){
+    background-color: #6574af;
+}
+
+.detDepart:nth-child(4n+0){
+    background-color: #c5465b;
+}
+
+.detDepart:nth-child(3n+0){
+    background-color: #F0A045;
+}
+
+.detDepart:nth-child(2){
+    background-color: #339933;
+}
+
+.detDepart > p{
+    margin: 20px 0px 5px;
+    text-align: center;
+    font-family: 'PT_Sans';
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #EFEFEF;
+}
+
+.operacDepart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    visibility: hidden;
+}
+
+.detDepart:hover .operacDepart{
+    visibility: visible;
+}
+
+.operacDepart > a{
+    margin: 10px 0px;
+    color: #5D5D5D;
+    transition: all .3s ease;
+}
+
+.operacDepart > a:hover{
+    color: #494949 !important;
+    font-size: 17px;
+}
+
+/* ****************** LISTAR GRUPOS ******************* */
+
+.contenedorListGrupos{
+    width: 90%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.detGrupo{
+    flex: 0 1 200px;
+    margin-bottom: 10px;
+    background-color: #9F91C6;
+    transition: all .3s ease;
+}
+
+.detGrupo:nth-child(5n+0){
+    background-color: #6574af;
+}
+
+.detGrupo:nth-child(4n+0){
+    background-color: #c5465b;
+}
+
+.detGrupo:nth-child(3n+0){
+    background-color: #F0A045;
+}
+
+.detGrupo:nth-child(2){
+    background-color: #339933;
+}
+
+.detGrupo > p{
+    margin: 20px 0px 5px;
+    text-align: center;
+    font-family: 'PT_Sans';
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #EFEFEF;
+}
+
+.operacGrupo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    visibility: hidden;
+}
+
+.detGrupo:hover .operacGrupo{
+    visibility: visible;
+}
+
+.operacGrupo > a{
+    margin: 10px 0px;
+    color: #5D5D5D;
+    transition: all .3s ease;
+}
+
+.operacGrupo > a:hover{
+    color: #494949 !important;
+    font-size: 17px;
+}
+
+/* ****************** LISTAR PROFESORES ******************* */
+
+.contenedorListProfesores{
+    width: 90%;
+    margin-top: 60px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.detProfImg{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.detProfImg > img{
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+    object-fit: contain;
+}
+
+.detProf{
+    flex: 0 1 300px;
+    margin-bottom: 15px;
+    background-color: #F9F9F9;
+    transition: all .3s ease;
+}
+
+.detProf > p{
+    margin: 5px 0px !important;
+    text-align: center;
+    font-family: 'PT_Sans';
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #555555;
+}
+
+hr.detProf{
+    width: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    border-top: 1px solid #004A65;
+}
+
+.detProfd{
+    text-align: left !important;
+}
+
+.detProfd > span{
+    color: #AAAAAA;
+    font-size: 11px;
+    padding-right: 15px;
+    margin-left: 20px;
+}
+
+.operacProf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    visibility: hidden;
+}
+
+.detProf:hover .operacProf{
+    visibility: visible;
+}
+
+.operacProf > a{
+    margin: 10px 0px;
+    color: #A8A8A8 !important;
+    transition: all .3s ease;
+}
+
+.operacProf > a:hover{
+    color: #494949 !important;
+    font-size: 17px;
+}
+
+/* ************************ AÑADIR ******************* */
+
+.anade{
+    background-color: #F9F9F9;
+    padding: 15px 20px;
+}
+
+.anade > form{
+    margin: 15px 0px;
+}
+
+#add_departamento{
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #004A65;
+}
+
+#add_departamento::-webkit-input-placeholder {
+  padding: 20px 0px 20px 10px;
+}
+
+.add_departamento, .add_grupo, .add_profesor{
+    outline: none;
+    border: none;
+    background: #004A65;
+    font-size: 1em;
+    color: #fff;
+    padding: 8px 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.titulo_form{
+    font-family: 'PT_Sans';
+    font-weight: 300;
+}
+
+#add_nombre, #add_nivel, #add_directivo{
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #004A65;
+}
+
+#add_nombre::-webkit-input-placeholder {
+  padding: 20px 0px 20px 10px;
+}
+
+#add_nivel::-webkit-input-placeholder {
+  padding: 20px 0px 20px 10px;
+}
+
+#add_password{
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #004A65;
+}
+
+#add_password::-webkit-input-placeholder {
+  padding: 20px 0px 20px 10px;
+}
+
+.input-group{
+    width: 300px;
+}
+
+#add_titulo, #add_fecha, #add_lugar, #add_horaInicio, #add_horaFinal{
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #004A65;
+}
+
+#add_descripcion, #add_grupo{
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #004A65;
+}
+
+.add_actividad{
+    outline: none;
+    border: none;
+    background: #004A65;
+    font-size: 1em;
+    color: #fff;
+    padding: 8px 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#add_titulo::-webkit-input-placeholder {
+  padding: 20px 0px 20px 10px;
+}
+
+#add_descripcion::-webkit-input-placeholder {
+  padding: 20px 0px 20px 10px;
+}
+
+#add_fecha::-webkit-datetime-edit-day-field {
+  padding: 20px 0px 20px 10px;
+}
+
+#add_lugar::-webkit-input-placeholder {
+  padding: 20px 0px 20px 10px;
+}
+
+/* ************************ EDITAR ******************* */
+
+.edit{
+    background-color: #F9F9F9;
+    padding: 15px 20px;
+    margin-top: 70px;
+}
+
+.edit > form{
+    margin: 15px 0px;
+}
+
+#edit_departamento{
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #004A65;
+}
+
+.edit_departamento, .edit_grupo, .edit_profesor{
+    outline: none;
+    border: none;
+    background: #004A65;
+    font-size: 1em;
+    color: #fff;
+    padding: 8px 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.titulo_form{
+    font-family: 'PT_Sans';
+    font-weight: 300;
+}
+
+#edit_nombre, #edit_nivel, #edit_directivo{
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #004A65;
+}
+
+#edit_password{
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #004A65;
+}
+
+#edit_titulo, #edit_fecha, #edit_lugar, #edit_horaInicio, #edit_horaFinal{
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #004A65;
+}
+
+#edit_descripcion, #edit_grupo{
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #004A65;
+}
+
+.edit_actividad{
+    outline: none;
+    border: none;
+    background: #004A65;
+    font-size: 1em;
+    color: #fff;
+    padding: 8px 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.imagenActividad{
+    width: 300px;
+}
+
+.imagenActividad > img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.imagenProfesor{
+    width: 300px;
+}
+
+.imagenProfesor > img{
+    width: 100%;
+    object-fit: contain;
+}
+
+/* ********************* PERFIL ***************** */
+
+.edit_perfil, .eliminarperfil{
+    outline: none;
+    border: none;
+    background: #004A65;
+    font-size: 1em;
+    color: #fff;
+    padding: 8px 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#edit_oldPassword, #edit_newPassword, #edit_repitPassword{
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #004A65;
+}
+
+#edit_oldPassword::-webkit-input-placeholder {
+  padding: 20px 0px 20px 10px;
+}
+
+#edit_newPassword::-webkit-input-placeholder {
+  padding: 20px 0px 20px 10px;
+}
+
+#edit_repitPassword::-webkit-input-placeholder {
+  padding: 20px 0px 20px 10px;
+}
+
+
+/* *********** VISUALIZAR LA ENTRADA EN GRANDE ************* */
+
+.contenidoActividad{
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 30px;
+}
+
+.contentAct{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contenidoActividad > img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.fechaActividad{
+    width: 12%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.fechaActividad > span{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 55px 0px;
+    background: #004a65;
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mes{
+    font-size: 14px !important;
+}
+
+.wrapperActividad{
+    width: 82%;
+    margin-top: 20px;
+}
+
+.wrapperActividad > .tituloActividad{
+    font-family: 'PT_Sans';
+    font-size: 2.5em;
+    font-weight: 300;
+    text-align: left;
+    padding-bottom: 10px;
+    line-height: 1;
+}
+
+.detalles{
+    block: inline;
+    color: #AAAAAA;
+    font-size: 11px;
+    padding-right: 15px;
+}
+
+.detalles > span{
+    font-size: 18px;
+    color: #444444;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.descripcionActividad{
+    margin: 20px 0px;
+    text-align: justify;
+    font-size: 17px;
+    color: #444444;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.lugarActividad{
+    width: 100%;
+    border: 1px solid #004a65;
+    padding: 10px;
+    color: #444444;
+    line-height: 1.4;
+    font-weight: 300;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.lugarActividad > span{
+    color: #AAAAAA;
+    font-size: 14px;
+    padding-right: 10px;
+    right: 0;
+}
+
+.hora{
+    width: 100%;
+    border-bottom: 1px solid #004a65;
+    color: #444444;
+    line-height: 1.4;
+    font-weight: 300;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+}
+
+.hora > p{
+    width: 50%;
+    height: 100%;
+    border-left: 1px solid #004a65;
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+}
+
+.hora > p:nth-child(even){
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid #004a65;
+    padding: 10px;
+}
+
+.hora > p > span{
+    color: #AAAAAA;
+    font-size: 14px;
+    padding-right: 10px;
+    right: 0;
+}
+
+/* *********** FIN VISUALIZAR LA ENTRADA EN GRANDE ************* */
+
+.containerActivities{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.actividadAbrr{
+    flex: 0 1 380px;
+    margin: 20px 10px;
+}

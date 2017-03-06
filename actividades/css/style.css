@@ -1,0 +1,512 @@
+#cargando{
+    width: 100%; 
+    height: 600px; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cargando img{
+    height: 100%; 
+    object-fit: cover;
+}
+
+/* *********** VISUALIZAR LA ENTRADA EN GRANDE ************* */
+
+.contenidoActividad{
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 30px;
+}
+
+.contentAct{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contenidoActividad > img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.fechaActividad{
+    width: 12%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.fechaActividad > span{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 55px 0px;
+    background: #004a65;
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mes{
+    font-size: 14px !important;
+}
+
+.wrapperActividad{
+    width: 82%;
+    margin-top: 20px;
+}
+
+.wrapperActividad > .tituloActividad{
+    font-family: 'PT_Sans';
+    font-size: 2.5em;
+    font-weight: 300;
+    text-align: left;
+    padding-bottom: 10px;
+    line-height: 1;
+}
+
+.detalles{
+    block: inline;
+    color: #AAAAAA;
+    font-size: 11px;
+    padding-right: 15px;
+}
+
+.detalles > span{
+    font-size: 18px;
+    color: #444444;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.descripcionActividad{
+    margin: 20px 0px;
+    text-align: justify;
+    font-size: 17px;
+    color: #444444;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.lugarActividad{
+    width: 100%;
+    border: 1px solid #004a65;
+    padding: 10px;
+    color: #444444;
+    line-height: 1.4;
+    font-weight: 300;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.lugarActividad > span{
+    color: #AAAAAA;
+    font-size: 14px;
+    padding-right: 10px;
+    right: 0;
+}
+
+.hora{
+    width: 100%;
+    border-bottom: 1px solid #004a65;
+    color: #444444;
+    line-height: 1.4;
+    font-weight: 300;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+}
+
+.hora > p{
+    width: 50%;
+    height: 100%;
+    border-left: 1px solid #004a65;
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+}
+
+.hora > p:nth-child(even){
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid #004a65;
+    padding: 10px;
+}
+
+.hora > p > span{
+    color: #AAAAAA;
+    font-size: 14px;
+    padding-right: 10px;
+    right: 0;
+}
+
+/* *********** FIN VISUALIZAR LA ENTRADA EN GRANDE ************* */
+
+
+/* *********************** SIDEBAR  ***************************** */
+
+.rellenar > li{
+    text-decoration: none;
+    list-style:none;
+    margin: 0 0 5px 25px;
+}
+
+.rellenar > li:before{
+    content: "‒";
+    color: rgb(85, 197, 148);
+    margin-right: 10px;
+}
+
+.rellenar > li > a{
+    font-family: 'Open Sans';
+    color: #555555;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+.rellenar > li > a:hover{
+    color: #004a65;
+    font-weight: 800;
+}
+
+#formBuscarActividad > input{
+    margin-left: 40px;
+}
+
+input[type="date"]::-webkit-datetime-edit-day-field{
+    padding-left: 10px;
+}
+
+#fechaA, #fechaB{
+    border: 1px solid #004a65;
+}
+
+#fechaA{
+    border-bottom-color: transparent;
+}
+
+.buscarActividad{
+    width: 179px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: #333333;
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    transition: all 0.3s ease,
+}
+
+.buscarActividad:hover{
+    color: #333333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+/* *************************** FIN SIDEBAR **************************** */
+
+#restoActividades{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fechaActDest {
+    width: 10%;
+}
+
+.wrapperActDest{
+    width: 88%;
+}
+
+.contAct{
+    flex: 0 1 47%;
+    padding: 20px 0px;
+}
+
+.cat_grupo{
+    display: block;
+    font-size: 0.8em;
+    text-align: center;
+    margin: 7px;
+}
+
+.post-ajuste ul{
+    margin-bottom: 0px !important;
+}
+
+.contDes{
+    text-align: justify;
+}
+
+#actividadDestacada{
+    margin-top: 30px;
+}
+
+.tituloActDest{
+    font-size: 2em !important;
+    color: #004a65;
+    text-decoration: none;
+    text-transform: uppercase !important;
+    transition: all 0.3s ease;
+}
+
+.tituloActDest:hover{
+    color: #73c6ca;
+}
+
+.imagenActDestacada > div{
+    width: 100%;
+    height: 250px;
+}
+
+.moreActDest{
+    margin-top: 20px;
+}
+
+
+/* ************************** PAGINACION **************************** */
+
+.menu_pie{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.page-item{
+    padding: 3px 5px;
+    border: 2px solid rgba(115,198,202,0.5);
+    margin: 0px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.flechaIz{
+    height: 15px;
+    margin: 0;
+    transform: rotate(180deg);
+}
+
+
+/* ************************ ARCHIVE ***************************** */
+
+.content-archiveA{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-archiveA > h1{
+    font-family: 'PT_Sans';
+    font-size: 2.5em;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.archivenot{
+    padding: 15px 0px 15px 10px;
+    text-align: left;
+}
+
+.ArchiveActividad{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fechaArchiveAct{
+    width: 10%;
+}
+
+.wrapperArchiveAct{
+    width: 88%;
+}
+
+
+.tituloArchiveAct{
+    font-family: 'PT_Sans' !important;
+    font-size: 1.8em !important;
+    font-weight: 300 !important;
+    text-align: center;
+    line-height: 1;
+    color: #000000 !important;
+    transition: all .3s ease;
+    text-transform: none !important;
+}
+
+.tituloArchiveAct:hover{
+    color: #73c6ca !important;
+}
+
+/* ************************ ARCHIVE PROFESORES ****************************** */
+
+.contenProfesor{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px 30px;
+}
+
+.imagenProfesor{
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgprof{
+    height: 260px;
+}
+
+.user{
+    height: 200px;
+}
+
+.inforProfesor{
+    width: 50%;
+}
+
+.inforProfesor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inforNombreProf{
+    font-family: 'PT_Sans';
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+}
+
+hr.hr-author{
+    width: 40%;
+    border: 1px solid #004a65;
+}
+
+.inforDepProf{
+    font-family: 'PT_Sans';
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.inforDepProf > span{
+    color: #AAAAAA;
+    font-size: 11px;
+    padding-right: 15px;
+}
+
+.ArchiveProfesor{
+    width: 100%;
+    margin-bottom: 15px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imagProfesor{
+    height: 180px;
+    
+    display: flex;
+    justify-content: flex-start;
+}
+
+.imagProfesor >  img{
+    height: 180px;
+    margin-left: 20px;
+}
+
+.infoProfesor{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ********************** ARCHIVE DEPARTAMENTO *********************** */
+
+.ArchiveDepartamento{
+    width: 100%;
+    background-color: rgba(0, 74, 101, 0.3);
+    margin-bottom: 10px;
+}
+
+.ArchiveDepartamento > p{
+    padding: 20px 40px;
+}
+
+.searchDepartamento{
+    color: #000000 !important;
+}
+
+.ArchiveDepartamento > p::before{
+    content: " ";
+    display: block;
+    background: url("../img/school-512.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    background-size: contain;
+    margin-right: 20px;
+}
+
+/* ******************* ARCHIVE GRUPO ************************* */
+
+.ArchiveGrupo{
+    width: 100%;
+    background-color: rgba(0, 74, 101, 0.3);
+    margin-bottom: 10px;
+}
+
+.ArchiveGrupo > p{
+    padding: 20px 40px;
+    color: #000000 !important;
+}
+
+.searchGrupo{
+    color: #000000 !important;
+}
+
+.ArchiveGrupo> p::before{
+    content: " ";
+    display: block;
+    background: url("../img/school-44.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    background-size: contain;
+    margin-right: 20px;
+}
